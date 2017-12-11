@@ -9,11 +9,13 @@ import {MatListModule} from '@angular/material/list';
 import {MatTableModule} from '@angular/material/table';
 
 import { AppComponent } from './app.component';
+import { PaperListComponent } from './components/paper-list/paper-list.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PaperListComponent
   ],
   imports: [
     BrowserModule,
